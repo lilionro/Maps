@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">"帮帮忙"</string>
+    <string name="username">请输入用户名</string>
+    <string name="password">请输入密码</string>
+    <string name="login">立即登录</string>
+    <string name="title_login">登录</string>
+    <string name="tv_register">立即注册</string>
+    <string name="title_register">注册</string>
+    <string name="register">注册</string>
+    <string name="helpMe">帮我</string>
+    <string name="helpYou">帮你</string>
+    <string name="toolbar_updateInfo">发布信息</string>
+    <string name="toolbar_getInfo">获取信息</string>
+    <string name="button_share">发布</string>
+    <string name="help_me_info">请输入您的求助信息</string>
+    <string name="help_me_location">已经自动匹配当前位置</string>
+    <string name="help_you_myself">(自己)</string>
+    <string name="iflytek_app_id">57344887</string>
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="search">请输入搜索关键字</string>
+    <string name="go_there">去这里</string>
+</resources>

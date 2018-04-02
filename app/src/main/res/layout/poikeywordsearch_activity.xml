@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+<RelativeLayout
+    android:id="@+id/keyWord_relativeLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+        <com.zero.lionro.maps.ui.view.MyAutoCompleteTextView
+            android:paddingLeft="3dp"
+            android:id="@+id/keyWord"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/et_input"
+            android:completionThreshold="1"
+            android:drawableRight="@drawable/search_delete"
+            android:layout_marginRight="60dp"
+            android:hint="请输入关键字"
+            android:textColorHint="@color/darkgrey"
+            android:imeOptions="actionSearch"
+            android:inputType="text|textAutoComplete"
+            android:maxLength="20"
+            android:paddingRight="5dp"
+            android:drawableLeft="@drawable/search_gray"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16.0sp" />
+         <Button
+             android:id="@+id/searchButton"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="5dp"
+             android:layout_width="55dp"
+             android:layout_height="45dp"
+             android:background="@color/helpToolbar"
+             android:textColor="@color/white"
+             android:text="搜索" />
+
+
+    <fragment
+        android:layout_below="@+id/searchButton"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.amap.api.maps2d.SupportMapFragment" />
+
+</RelativeLayout>
+</layout>
